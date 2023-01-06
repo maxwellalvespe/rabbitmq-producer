@@ -1,0 +1,12 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /queue
+
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
